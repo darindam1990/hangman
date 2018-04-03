@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="mask">
+        <div class="email-ct">
+            <span class="email-label">Enter your email: </span>
+            <input type="emai" id="email_address" autofocus value="foo@bar.com"/>
+            <div class="instructions">Hit &#9166; to continue</div>
+        </div>
+    </div>
+    <div class="fail-screen">:(</div>
+    <div class="success-screen">:)</div>
+    <div class="header">
+        <span class="title">Hangman</span>
+        <span class="score-ct">
+            Score:
+            <span class="score"></span>
+        </span>
+    </div>
+    <div class="word"></div>
+    <div class="puzzle">
+        <div class="alphabets"></div>
+    </div>
+    <div class="hangman">
+        <canvas id="gallows"  width="300" height="300"></canvas>
+    </div>
+    <script type="text/javascript" src="assets/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/globals.js"></script>
+    <script type="text/javascript" src="js/elements.js"></script>
+    <script type="text/javascript" src="js/hangman.js"></script>
+    <script type="text/javascript" src="js/server.js"></script>
+    <script type="text/javascript" src="js/gameplay.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript"></script>
+</body>
+</html>
